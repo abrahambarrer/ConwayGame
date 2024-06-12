@@ -36,7 +36,7 @@ import numpy as np
 import time
 ```
 
-* La implementación se puede entender de la siguiente manera:
+La implementación se puede entender de la siguiente manera:
 * El espacio regular junto con los estados de cada célula se representa con una matriz de orden $50$, que inicialmente se encuentran sus valores en 0 (todas muertas).
 * En un periodo $n$ se recorre cada célula $x$ -un elemento de la matriz-, y se obtiene la suma de los estados de sus vecinos. Según la cantidad de vecinos se asignará el estado de $x$ en el siguiente periodo $n+1$ según las reglas de transición. Para ello, el recorrido de cada célula se realiza en la matriz `estado`, y los cambios en el siguiente periodo se almacenan en la matriz `nuevo_estado`.
 * El estado de cada célula se representa con un color: blanco para $1$ y gris oscuro para $0$. Un polígono blanco u oscuro es dibujado después de revisar su vecindad.
