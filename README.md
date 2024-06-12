@@ -1,5 +1,5 @@
 # Autómatas celulares: juego de la vida de Conway
-Los autómatas celulares datan de los años 1950, sin embargo su popularización empezo en 1970 cuando John Conway reveló al público el "Juego de la Vida". El autómata celular es un modelo matemático que consiste en un conjunto de celdas que cambian de estado de un momento a otro. Las propiedades que en un inicio son locales a un conjunto de celdas se pueden propagar por el sistema en general. **Berlekamp et al. (1982) demostró junto con el mismo Conway la universidad del Juego de la Vida, que era posible construir una computadora con almacenamiento finito y es por tanto una Máquina de Turing**.
+Los autómatas celulares datan de los años 1950, sin embargo su popularización empezo en 1970 cuando John Conway reveló al público el "Juego de la Vida". El autómata celular es un modelo matemático que consiste en un conjunto de celdas que cambian de estado de un momento a otro. Las propiedades que en un inicio son locales a un conjunto de celdas se pueden propagar por el sistema en general. **Berlekamp et al. (1982) demostró junto con el mismo Conway la universalidad del Juego de la Vida, que era posible construir una computadora con almacenamiento finito y es por tanto una Máquina de Turing**.
 
 ## Definición
 Los autómatas celulares constan de los siguientes elementos:
